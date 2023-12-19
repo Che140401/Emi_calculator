@@ -24,7 +24,7 @@ function Emi_calculator(event) {
     // Calculate total repayment and total interest payable
     let totalRepayment = emi * t;
     let totalInterest = totalRepayment - Loan_amount;
-ṭ
+
     // Display the results
     document.getElementById('emi-result').textContent = emi.toFixed(2);
     document.getElementById('totalInterest').textContent = totalInterest.toFixed(2);
